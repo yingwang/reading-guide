@@ -1,0 +1,42 @@
+site_name: "阅读指南：100 本书"
+site_description: "12 个领域，100 本书，每本一段推荐"
+site_url: https://yingwang.github.io/reading-guide/
+repo_name: yingwang/reading-guide
+repo_url: https://github.com/yingwang/reading-guide
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: _site
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.indexes
+    - navigation.expand
+    - toc.follow
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - admonition
+  - attr_list
+nav:
+  - 首页: index.md
+  - 一 文学小说: chapters/01-fiction.md
+  - 二 哲学思想: chapters/02-philosophy.md
+  - 三 历史: chapters/03-history.md
+  - 四 科学与自然: chapters/04-science.md
+  - 五 数学与计算: chapters/05-math.md
+  - 六 心理与脑科学: chapters/06-psychology.md
+  - 七 经济金融: chapters/07-economics.md
+  - 八 社会人类学: chapters/08-society.md
+  - 九 艺术文化: chapters/09-arts.md
+  - 十 传记回忆录: chapters/10-biography.md
+  - 十一 写作与方法论: chapters/11-method.md
+  - 十二 中国古典: chapters/12-classics.md
