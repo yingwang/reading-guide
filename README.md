@@ -1,8 +1,8 @@
 # 阅读指南：100 本书
 
-12 个领域 100 本书，每本一段推荐。
+跨越十二个知识领域的一百部经典与佳作，每书各附精要导读与脉络梳理。
 
-线上：https://yingwang.github.io/reading-guide/
+在线阅读：https://yingwang.github.io/reading-guide/
 
 | | 类别 | 书数 |
 |---|---|---|
